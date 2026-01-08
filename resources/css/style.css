@@ -1,0 +1,617 @@
+/* Own Style*/
+/* Colores aluze
+#A05377 rosa obscuro (Ala colibrí)
+#DCA4BD rosa bajito (Cola colibrí)
+#BF5285 rosa medio (Cuerpo colibrí)
+#DCA4BD rosa (Cabeza colibrí)
+*/
+html,
+body {
+    width: 100% !important;
+    overflow-x: hidden;
+    background-color: #eaeef6 !important;
+}
+button,
+input,
+label,
+select,
+option {
+    font-family: 'Montserrat Light' !important;
+}
+.a_none_style {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Khand Medium';
+    src: url('../fonts/Khand-Medium.ttf');
+}
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../fonts/Montserrat-Light.otf');
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../fonts/Montserrat-Medium.otf');
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-VariableFont_wght.ttf');
+}
+.bg-login {
+    background: #a83362;
+    background: radial-gradient(
+        circle,
+        rgba(168, 51, 98, 1) 0%,
+        rgba(220, 82, 137, 1) 69%,
+        rgba(225, 155, 179, 1) 100%
+    );
+}
+.kMedium {
+    font-family: 'Khand Medium';
+}
+.mLight {
+    font-family: 'Montserrat Light';
+}
+.mMedium {
+    font-family: 'Montserrat Medium';
+}
+.mulish {
+    font-family: 'Mulish';
+}
+.login-form label {
+    color: #000000;
+    text-align: center;
+    font-family: 'Montserrat Medium';
+}
+.login-form {
+    text-align: center;
+}
+.login-form input {
+    background: transparent;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #a83362;
+}
+.login-form input:focus {
+    background: transparent;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+}
+.img-login {
+    text-align: center;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+.logo-login {
+    padding-top: 0.7rem;
+    width: 80px;
+}
+.btn-login {
+    background-color: transparent;
+    border: 1px solid #a83362;
+    font-family: 'Montserrat Light';
+    color: #a83362;
+}
+.btn-login:hover {
+    border: 1px solid #a83362;
+    background: transparent;
+}
+.img-menu {
+    width: 100px;
+}
+.icon-house {
+    fill: #a83362;
+    width: 1.8rem;
+}
+.add-icon {
+    fill: #fff;
+    background-color: #a83362;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.add-icon svg {
+    width: 0.7rem;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.icon-notification svg {
+    fill: #a83362;
+    width: 1.3rem;
+}
+/* Menu */
+.nav-link {
+    font-size: 18px !important;
+}
+.nav-item {
+    margin-right: 1rem !important;
+}
+.logo-menu {
+    width: 100px;
+}
+.profile-icon-menu {
+    width: 30px;
+    margin-top: 0.5rem;
+}
+.profile-menu {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #a83362;
+    text-align: center;
+    cursor: pointer;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #a83362 !important;
+}
+.icon-menu-1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+/* Page's styles */
+.logo-inicio {
+    width: 200px;
+    padding-top: 1rem;
+}
+.welcome-txt {
+    font-size: 6rem;
+    font-family: 'Khand Medium';
+}
+.index-subtitle {
+    font-family: 'Montserrat Medium';
+    font-size: 1.5rem;
+}
+.welcome-container {
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+.logo-aluze {
+    width: 100px;
+}
+.titulo-header h1 {
+    color: #6a778e;
+    font-size: 30px;
+}
+.tit-pag {
+    text-align: center;
+}
+.btn-calcular {
+    background-color: #a83362 !important;
+    border-color: #a83362 !important;
+}
+.btn-agregar {
+    background-color: #a83362 !important ;
+    border-color: #a83362 !important;
+}
+.resul {
+    border: 30px #0000 !important;
+}
+.resul h2 {
+    text-align: center;
+}
+#resultado {
+    border-color: #e19bb3 !important;
+    border-radius: 10px;
+}
+.btn-delete {
+    background-color: #a83362 !important;
+    border-color: #a83362 !important;
+}
+.btn-save-order {
+    background-color: #bf5285 !important;
+    border-color: #bf5285 !important;
+}
+.table > :not(caption) > * > * {
+    background: transparent !important;
+}
+.user-profile {
+    background: #a83362;
+    background: linear-gradient(
+        175deg,
+        rgba(168, 51, 98, 1) 0%,
+        rgba(220, 82, 137, 0.87) 55%,
+        rgba(225, 155, 179, 1) 100%
+    );
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2rem;
+}
+.profile-icon-user {
+    border-radius: 100%;
+    background-color: #fbf4f7;
+    border: 5px solid #a83362;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.icon-user-profile {
+    stroke: #fff;
+    width: 60px;
+    margin-top: 1rem;
+}
+.btn-logout {
+    background: transparent !important;
+    border: 2px solid #a83362 !important;
+    width: 120px !important;
+}
+.btn-logout:hover {
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    width: 120px !important;
+}
+.btn-logout:focus {
+    background: transparent !important;
+    border: 2px solid #a83362 !important;
+    width: 120px !important;
+}
+.log-out {
+    width: 15px;
+    height: 15px;
+    margin-left: 0.5rem;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.data-user h2 {
+    font-size: 2.1rem;
+    color: #fff;
+}
+.portal-access-title {
+    color: #fff;
+    font-family: 'Montserrat Medium';
+    font-size: 15px;
+}
+.portal-access-assig {
+    font-family: 'Montserrat Light';
+    font-size: 12px;
+    opacity: 45%;
+    color: #fff;
+    line-height: 0px;
+}
+.line-data-profile {
+    color: #fff;
+}
+.users {
+    border: 2px solid #a83362;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.icon-user-add {
+    border-radius: 100%;
+    background-color: #fbf4f7;
+    border: 2px solid #a83362;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.icon-user-active {
+    width: 30px;
+    margin-top: 0.5rem;
+}
+.name-user {
+    font-family: 'Montserrat Medium';
+    font-size: 15px;
+}
+.position-user {
+    font-family: 'Montserrat Light';
+    font-size: 12px;
+    opacity: 45%;
+    color: #000000;
+    line-height: 0px;
+}
+.btn-edit-admin {
+    background: transparent !important;
+    border-color: transparent !important;
+    color: #000000 !important;
+}
+.btn-edit-admin:hover {
+    background: transparent !important;
+    border-color: transparent !important;
+    color: #000000 !important;
+}
+.btn-edit-admin:focus {
+    background: transparent !important;
+    border-color: transparent !important;
+    color: #000000 !important;
+}
+.add-supplier {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-radius: 2rem;
+    background: #fff;
+}
+.save-user {
+    width: 18px;
+    height: 18px;
+    margin-left: 0.5rem;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.btn-save-user {
+    background: transparent !important;
+    border: 2px solid #bf5285 !important;
+    color: #000000 !important;
+}
+.btn-save-user:focus {
+    background: #bf5285 !important;
+    border: 2px solid #bf5285 !important;
+    color: #fff !important;
+}
+.btn-save-user:hover {
+    background: #bf5285 !important;
+    border: 2px solid #bf5285 !important;
+    color: #fff !important;
+}
+.add-title-admin {
+    font-family: 'Mulish';
+}
+.profile-icon-add-user {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid #bf5285;
+    text-align: center;
+}
+.icon-add-user-profile {
+    width: 60px;
+    margin-top: 1rem;
+}
+.btn-change-icon-user {
+    background: transparent !important;
+    color: #000000 !important;
+    border: 1px solid #bf5285 !important;
+    margin-top: 1rem !important;
+    border-radius: 5px !important;
+    text-align: center !important;
+}
+.btn-change-icon-user:hover {
+    background: #bf5285 !important;
+    color: #fff !important;
+    border: 1px solid #bf5285 !important;
+    margin-top: 1rem !important;
+    border-radius: 5px !important;
+}
+.btn-change-icon-user:focus {
+    background: #bf5285 !important;
+    color: #fff !important;
+    border: 1px solid #bf5285 !important;
+    margin-top: 1rem !important;
+    border-radius: 5px !important;
+}
+.edit-icon-profile {
+    width: 15px;
+    height: 15px;
+    margin-left: 0.5rem;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.nav-underline .nav-link.active,
+.nav-underline .show > .nav-link {
+    border-color: #a83362 !important;
+    color: #a83362 !important;
+    font-family: 'Montserrat Medium' !important;
+}
+.nav-link {
+    color: #000000 !important;
+    font-family: 'Montserrat Light' !important;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: #a83362 !important;
+}
+.tit-filter-users p {
+    font-family: 'Mulish';
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.btn-order-delete {
+    background: transparent !important;
+    border: none !important;
+    color: #000000 !important;
+}
+.btn-order-delete:hover {
+    background: transparent !important;
+    border: none !important;
+    color: #000000 !important;
+}
+.btn-order-delete:focus {
+    background: transparent !important;
+    border: none !important;
+    color: #000000;
+}
+.btn-order-edit {
+    background: transparent !important;
+    border: none !important;
+    color: #000000 !important;
+}
+.btn-order-edit:hover {
+    background: transparent !important;
+    border: none !important;
+    color: #000000 !important;
+}
+.btn-order-edit:focus {
+    background: transparent !important;
+    border: none !important;
+    color: #000000 !important;
+}
+.information-icon-order {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.2rem;
+}
+.btn-order-factory {
+    background: transparent;
+    border: 2px solid #a83362;
+    color: #a83362;
+}
+.btn-order-factory:hover {
+    background: #bf5285;
+    color: #fff;
+    border: 2px solid #bf5285;
+}
+.btn-order-factory:focus {
+    background: #bf5285;
+    color: #fff;
+    border: 2px solid #bf5285;
+}
+.tit-order-factory {
+    font-family: 'Montserrat Medium';
+    font-weight: 900;
+    font-size: 25px;
+}
+.number-blind-order-factory {
+    font-family: 'Montserrat Medium';
+    font-size: 20px;
+}
+.details-blind {
+    font-family: 'Montserrat Medium';
+}
+.details-blind span {
+    font-family: 'Montserrat light';
+}
+.border-tables {
+    border: 1px solid rgba(191, 82, 156, 0.4);
+    padding-top: 1rem;
+    border-radius: 30px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 15px; /*  10 píxeles de espacio entre celdas */
+}
+.btn-convert-order {
+    background: rgba(220, 82, 137, 0.4) !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+.btn-convert-order:hover {
+    background: rgba(220, 82, 137, 0.8) !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+.btn-convert-order:focus {
+    background: rgba(220, 82, 137, 0.8) !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+.order-fabric {
+    border: 1px solid rgba(168, 51, 98, 0.5);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+}
+.name-order-fabric p {
+    font-family: 'Montserrat Medium';
+    font-size: 15px;
+}
+.name-order-fabric span {
+    font-family: 'Montserrat Light';
+    font-size: 15px;
+}
+.btn-filters {
+    background: transparent;
+    border: 1px solid rgba(220, 82, 137, 0.8);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+}
+.btn-filters:focus {
+    background: transparent;
+    border: 1px solid rgba(220, 82, 137, 0.8);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 0 0.25rem rgba(220, 82, 137, 0.2);
+}
+.btn-new-quote {
+    background-color: transparent !important;
+    border: 1px solid #a83362 !important;
+    color: #a83362 !important;
+}
+.btn-new-quote:hover {
+    background-color: #bf5285 !important;
+    border: 1px solid #a83362 !important;
+    color: #fff !important;
+}
+.btn-new-quote:focus {
+    background-color: #bf5285 !important;
+    border: 1px solid #a83362 !important;
+    color: #fff !important;
+}
+.search-quotes {
+    position: relative;
+}
+.search-quotes .input-search-quote {
+    padding-left: 2.375rem !important;
+}
+.input-search-quote {
+    background: rgba(220, 82, 137, 0.3) !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+}
+.input-search-quote::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+.search-quotes .icon-search-quotes {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.input-search-quote:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 82, 137, 0.2) !important;
+    border: 1px solid rgba(220, 82, 137, 0.8) !important;
+}
+.btn-status-quote {
+    background: rgba(220, 82, 137, 0.2) !important;
+    border: 1px solid rgba(220, 82, 137, 0.2) !important;
+    border-radius: 20px !important;
+}
+.bg-footer {
+    background-color: rgba(220, 82, 137, 0.8);
+    color: #fff;
+}
+.instalation-check {
+    margin-top: 2.4rem;
+}
+.form-check-input:checked {
+    background-color: #bf5285 !important;
+    border-color: #bf5285 !important;
+}
+.form-check-input:focus {
+    border-color: rgb(225, 155, 179) !important;
+    box-shadow: 0 0 0 0.25rem rgba(225, 155, 179, 0.25) !important;
+}
+.btn-close-modals {
+    background-color: #bf5285 !important;
+    border: 1px solid #a83362 !important;
+    color: #fff !important;
+}
