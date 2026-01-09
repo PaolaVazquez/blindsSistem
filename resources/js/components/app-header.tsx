@@ -32,7 +32,15 @@ import { cn, isSameUrl, resolveUrl } from '@/lib/utils';
 import { dashboard } from '@/routes';
 import { type BreadcrumbItem, type NavItem, type SharedData } from '@/types';
 import { Link, usePage } from '@inertiajs/react';
-import { BookOpen, Folder, LayoutGrid, Menu, Search } from 'lucide-react';
+import {
+    Archive,
+    Calculator,
+    Feather,
+    Folder,
+    Info,
+    LayoutGrid,
+    Menu,
+} from 'lucide-react';
 import AppLogo from './app-logo';
 import AppLogoIcon from './app-logo-icon';
 
@@ -46,14 +54,29 @@ const mainNavItems: NavItem[] = [
 
 const rightNavItems: NavItem[] = [
     {
-        title: 'Repositorio',
+        title: 'Telas',
         href: 'https://github.com/laravel/react-starter-kit',
+        icon: Feather,
+    },
+    {
+        title: 'Pedidos',
+        href: 'https://laravel.com/docs/starter-kits#react',
         icon: Folder,
     },
     {
-        title: 'Documentación',
+        title: 'Ventas',
         href: 'https://laravel.com/docs/starter-kits#react',
-        icon: BookOpen,
+        icon: Calculator,
+    },
+    {
+        title: 'Cotizaciones',
+        href: 'https://laravel.com/docs/starter-kits#react',
+        icon: Archive,
+    },
+    {
+        title: 'Ayuda',
+        href: 'https://laravel.com/docs/starter-kits#react',
+        icon: Info,
     },
 ];
 
@@ -186,13 +209,13 @@ export function AppHeader({ breadcrumbs = [] }: AppHeaderProps) {
 
                     <div className="ml-auto flex items-center space-x-2">
                         <div className="relative flex items-center space-x-1">
-                            <Button
+                            {/*<Button
                                 variant="ghost"
                                 size="icon"
                                 className="group h-9 w-9 cursor-pointer"
                             >
                                 <Search className="!size-5 opacity-80 group-hover:opacity-100" />
-                            </Button>
+                            </Button>*/}
                             <div className="hidden lg:flex">
                                 {rightNavItems.map((item) => (
                                     <TooltipProvider

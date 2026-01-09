@@ -24,10 +24,10 @@ export default function Login({
 }: LoginProps) {
     return (
         <AuthLayout
-            title="Log in to your account"
-            description="Enter your email and password below to log in"
+            title="Inicia sesión en tu cuenta"
+            description="Ingresa tu correo electrónico y tu contraseña para iniciar sesión"
         >
-            <Head title="Log in" />
+            <Head title="Inicio de sesión" />
 
             <Form
                 {...store.form()}
@@ -102,7 +102,7 @@ export default function Login({
 
                         {canRegister && (
                             <div className="text-center text-sm text-muted-foreground">
-                                Don't have an account?{' '}
+                                ¿No tienes una cuenta?{' '}
                                 <TextLink href={register()} tabIndex={5}>
                                     Registrarse
                                 </TextLink>
