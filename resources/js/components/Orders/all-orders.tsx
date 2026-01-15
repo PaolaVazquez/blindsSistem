@@ -1,10 +1,14 @@
-import { Eye, Pencil } from 'lucide-react';
-export default function InventoryFabric() {
+import { Eye, Pencil, Plus } from 'lucide-react';
+
+export default function AllOrders() {
     return (
         <div className="">
-            <h2 className="pb-10 text-4xl font-bold">
-                Inventario de Telas / Componentes
-            </h2>
+            <h2 className="pb-10 text-4xl font-bold">Pedidos de persianas</h2>
+            <div className="pb-10">
+                <button className="ml-auto flex w-[150px] flex-1 cursor-pointer items-center justify-center rounded-lg bg-purple-600 px-4 py-2 font-semibold text-white shadow transition hover:bg-purple-700">
+                    Agregar <Plus className="ml-2" size={18} />
+                </button>
+            </div>
             <div className="w-full overflow-x-auto">
                 <table className="w-full border-collapse overflow-hidden rounded-lg shadow-md">
                     <thead>
